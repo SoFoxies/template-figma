@@ -1,0 +1,34 @@
+html {
+  font-family: "Noto Sans", sans-serif;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  background-color: #87509c;
+  padding: 58px 0;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  &-img {
+    height: 35px;
+    width: 115px;
+  }
+  &-nav {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+  }
+  &-nav a {
+    text-decoration: none;
+  }
+  &-nav li {
+    list-style: none;
+    color: #fff;
+  }
+}

@@ -1,0 +1,24 @@
+.hero {
+  background-color: #87509c;
+  margin: 0;
+  padding: 100px 0;
+  text-align: center;
+
+  &-title {
+    color: #fff;
+    font-weight: 700;
+    line-height: calc(65 / 42);
+    text-align: center;
+  }
+}
+
+.btn-primary {
+  background-color: #eb7d4b;
+  border: 1px solid #eb7d4b;
+  color: #fff;
+  border-radius: 5px;
+  padding: 15px 40px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(27 / 18);
+}

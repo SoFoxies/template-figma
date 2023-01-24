@@ -1,0 +1,24 @@
+.skills {
+  background-color: #fff;
+  padding: 100px 0;
+  &-container {
+    text-align: center;
+    color: #3c4761;
+  }
+  &-title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: calc(60 / 40);
+    margin-bottom: 10px;
+  }
+  &-divider {
+    border-bottom: 4px solid rgba($color: #bdd1df, $alpha: 1);
+    margin-left: auto;
+    margin-right: auto;
+    width: 87px;
+  }
+  &-desc {
+    color: #3c4761;
+    font-weight: 300;
+  }
+}
